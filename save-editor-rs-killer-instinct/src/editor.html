@@ -1,0 +1,13 @@
+<template>
+    <require from="libvantage/vantage.css"></require>
+	<header>Save Data</header>
+	<card label="Set XUID before extracting/injecting (Hex)"> 
+		<v-text value.bind="xuid"></v-text>
+	</card>		
+	<card label="Extract">
+		<v-button click.delegate="writeSaveToDisk()">Extract File</v-button>
+	</card>
+	<card label="Inject"> 
+		<input type="file" files.bind="selectedFiles">
+	</card>
+</template>

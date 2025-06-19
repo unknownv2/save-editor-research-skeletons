@@ -1,0 +1,67 @@
+{
+  "name": "recore-research-skeleton",
+  "author": "unknown",
+  "description": "Recore campaign research skeleton.",
+  "version": "0.1.0",
+  "vantage": {
+    "game": "Recore",
+    "scid": "31ba0100-1d30-40c4-9816-9d6c32cf123e",
+    "thumbnailUrl": "http://images-eds.xboxlive.com/image?url=klAjvYeEhSPSes0dZK9DUNyIkc4HTZrg4uAHo76BsDdmnDMvIIax1dVBk.jRwcIowAGnZIrxBFs6Anjw0Nm.7BrGKu5TNOiQwH6GN8naNMMcysTiyfvA6u4MoXO6ko9mOt_ZDcPEalUHJNY4zNgE6a6dmFS1dyTy_ux3Y1iJVuEVfTCyPAT1DuWWR_0w1azB6EGvFdo.i9A0nYgpAuIltw--",
+    "name": "Research Skeleton",
+    "containerFilter": "SaveGames",
+    "fileFilter": "save_v_2_0"
+  },
+  "repository": {
+    "type": "???",
+    "url": "???"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "aurelia-animator-css": "^1.0.4",
+    "aurelia-bootstrapper": "^2.1.1",
+    "big-integer": "^1.6.26",
+    "bluebird": "^3.5.1",
+    "crc-32": "^1.1.1",
+    "file-saver": "^1.3.3",
+    "libvantage": "github:unknownv2/libvantage#beta",
+    "requirejs": "^2.3.5",
+    "text": "github:requirejs/text#latest",
+    "tslib": "^1.8.1"
+  },
+  "devDependencies": {
+    "@gulp-sourcemaps/identity-map": "github:gulp-sourcemaps/identity-map#v1.0.1",
+    "@gulp-sourcemaps/map-sources": "github:gulp-sourcemaps/map-sources#v1.0.0",
+    "@types/file-saver": "^1.3.0",
+    "@types/node": "^7.0.52",
+    "aurelia-cli": "^0.32.0",
+    "aurelia-testing": "^1.0.0-beta.4.0.0",
+    "aurelia-tools": "^1.0.0",
+    "browser-sync": "^2.23.5",
+    "connect-history-api-fallback": "^1.5.0",
+    "debounce": "^1.1.0",
+    "dezalgo": "^1.0.3",
+    "event-stream": "^3.3.3",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-changed-in-place": "^2.3.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^3.2.3",
+    "gulp-watch": "^5.0.0",
+    "html-minifier": "^3.5.8",
+    "minimatch": "^3.0.4",
+    "through2": "^2.0.3",
+    "tslint": "^3.11.0",
+    "typescript": "^2.6",
+    "uglify-js": "^3.3.7",
+    "vinyl-fs": "^3.0.2"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/aurelia run --watch",
+    "watch": "./node_modules/.bin/aurelia run --watch",
+    "build": "./node_modules/.bin/aurelia build --env prod"
+  }
+}

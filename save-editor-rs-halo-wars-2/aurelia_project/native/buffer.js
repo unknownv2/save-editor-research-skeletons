@@ -1,0 +1,1 @@
+define('buffer', function() { return window.vantage.nodeModules.buffer; });
